@@ -6,6 +6,7 @@ import org.springframework.web.client.RestTemplate;
 
 @Component
 public class HttpClient {
+	//comment
 	@Bean
 	public RestTemplate restTemplate() {
 		return new RestTemplate();
