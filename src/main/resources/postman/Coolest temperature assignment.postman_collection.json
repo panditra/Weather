@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "31d908ce-d0bc-4ea3-b203-fa8c4761983b",
+		"name": "Coolest temperature assignment",
+		"description": "View tomorrow’s predicted temperatures for a given zip-code in the United States.So that know which will be the coolest hour of the day.\r\n\r\nAPI base URL is \"http://api.weatherbit.io/v2.0/forecast/hourly\"\r\n",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Invalid zip",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/weather/10012",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"weather",
+						"10012"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Valid zip",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/weather/10012",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"weather",
+						"10012"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
