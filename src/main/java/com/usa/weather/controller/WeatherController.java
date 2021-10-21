@@ -1,7 +1,7 @@
 package com.usa.weather.controller;
 
 import java.util.List;
-
+//first controller
 import org.joda.time.DateTime;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
